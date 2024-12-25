@@ -44,12 +44,11 @@ body{
 .list{
     display: flex;
     gap: 30px;
-    width: 700px;
 }
 
 .auth-list{
     display: flex;
-    align-items: center;
+    gap: 30px;
 }
 
 .text{
@@ -61,5 +60,13 @@ body{
 }
 
 
+.hero-title{
+    width: 507px;
+font-size: 54px;
+font-weight: 400;
+}
 
-
+.hero-text{
+    width: 452px;
+font-size: 16px;
+}
