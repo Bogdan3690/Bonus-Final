@@ -41,7 +41,7 @@ header.header{
     background-image: url(./img/bg.png);
     background-size: cover;
     background-position: center;
-    height: 784px;
+height: 784px;
 }
 
 .container{
@@ -69,11 +69,6 @@ header.header{
 .nav{
     display: flex;
     justify-content: space-between;
-}
-
-.title{
-    padding-top: 36px;
-    padding-bottom: 11px;
 }
 
 .first-button{
@@ -132,8 +127,17 @@ line-height: 60.48px;
     color: var(--secondary-text-color);
 }
 
+.hero-list{
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
 .hero-sec{
     display: flex;
+}
+
+.info{
+    padding-right: 106px;
 }
 
 .hero-img{
@@ -143,9 +147,11 @@ height: 283px;
 
 .hero{
     padding-top: 76px;
-    margin-left: 64px;
-    margin-right: 64px;
     padding-bottom: 75px;
+}
+
+.hero-list{
+    padding-top: 124px;
 }
 
 .hero-title{
@@ -159,4 +165,120 @@ font-weight: 400;
 font-size: 16px;
 padding-top: 15px;
 padding-bottom: 75px;
+}
+
+.first-item{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.first-advantages{
+    padding-left: 116px;
+}
+
+.first-advantages .top-text{
+    color: var(--main-text-color);
+font-size: 19px;
+line-height: 36px;
+width: 225px;
+}
+
+.first-advantages .title{
+font-size: 35px;
+font-weight: 400;
+line-height: 45.632px;
+letter-spacing: 1px;
+padding-top: 36px;
+padding-bottom: 11px;
+width: 459px;
+}
+
+.first-advantages .text{
+    color: var(--main-text-color);
+line-height: 22.08px;
+width: 494px;
+padding-top: 48px;
+}
+
+/*  */
+.one{
+text-align: center;
+font-size: 38px;
+line-height: 24px;
+width: 74px;
+height: 74px;
+border-radius: 100px;
+background: #B99FEA;
+}
+/*  */
+
+.second-item{
+    display: flex;
+    padding-bottom: 183px;
+    padding-top: 203px;
+}
+
+.second-advantages{
+    padding-right: 139px;
+}
+
+.second-advantages .top-text{
+    color: var(--main-text-color);
+font-size: 19px;
+line-height: 36px;
+width: 260px;
+}
+
+.second-advantages .title{
+    color: var(--main-text-color);
+font-size: 35px;
+font-weight: 400;
+line-height: 45.632px;
+letter-spacing: 1px;
+width: 490px;
+padding-bottom: 9px;
+padding-top: 36px;
+}
+
+.second-advantages .text{
+    color: var(--main-text-color);
+line-height: 22.08px;
+width: 495px;
+padding-top: 49px;
+}
+
+.third-item{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.third-advantages{
+    padding-left: 116px;
+}
+
+.third-advantages .top-text{
+    color: var(--main-text-color);
+    font-size: 19px;
+    line-height: 36px;
+    width: 220px;
+}
+
+.third-advantages .title{
+    color: var(--main-text-color);
+font-size: 35px;
+font-weight: 400;
+line-height: 45.632px;
+letter-spacing: 1px;
+width: 491px;
+padding-bottom: 9px;
+padding-top: 36px;
+}
+
+.third-advantages .text{
+    color: var(--main-text-color);
+font-size: 15px;
+line-height: 22.08px;
+width: 485px;
+margin-bottom: 197px;
+padding-top: 49px;
 }
