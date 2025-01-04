@@ -167,6 +167,8 @@ padding-top: 15px;
 padding-bottom: 75px;
 }
 
+/* FIRST LIST */
+
 .first-item{
     display: flex;
     flex-direction: row-reverse;
@@ -212,6 +214,8 @@ background: #B99FEA;
 }
 /*  */
 
+/* SECOND LIST */
+
 .second-item{
     display: flex;
     padding-bottom: 183px;
@@ -247,6 +251,8 @@ width: 495px;
 padding-top: 49px;
 }
 
+/* THIRD LIST */
+
 .third-item{
     display: flex;
     flex-direction: row-reverse;
@@ -281,4 +287,41 @@ line-height: 22.08px;
 width: 485px;
 margin-bottom: 197px;
 padding-top: 49px;
+}
+
+.third-img{
+    width: 518px;
+height: 500px;
+}
+
+.first-review::before{
+    background-image: url(./img/review.png)
+}
+
+.first-review .text{
+    width: 489px;
+text-align: center;
+font-size: 24px;
+line-height: 32px;
+}
+
+.first-review .text:nth-last-child(1){
+    width: 198px;
+text-align: start;
+font-size: 14px;
+line-height: 24px;
+}
+
+.members{
+    display: flex;
+    gap: 29px;
+    margin-top: 61px;
+    margin-bottom: 112px;
+}
+
+.second-review .text{
+    width: 409px;
+text-align: center;
+font-size: 23px;
+line-height: 32px;
 }
