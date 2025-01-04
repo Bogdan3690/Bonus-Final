@@ -295,7 +295,7 @@ height: 500px;
 }
 
 .first-review::before{
-    background-image: url(./img/review.png)
+    background-image: url(./img/review.png);
 }
 
 .first-review .text{
