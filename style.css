@@ -6,6 +6,7 @@
     --secondary-text-color: #E4D8CC;
     --third-text-color: #B99FEA;
     --fourt-text-color: #C3BAB1;
+    --link-color: #B99FEA;
 }
 
 html{
@@ -38,7 +39,7 @@ body{
 
 
 header.header{
-    background-image: url(./img/bg.png);
+    background-image: url(./img/bg2.jpg);
     background-size: cover;
     background-position: center;
 height: 784px;
@@ -58,7 +59,7 @@ height: 784px;
     gap: 30px;
 }
 
-.list{
+.header .list{
     padding-left: 134px;
 }
 
@@ -69,6 +70,7 @@ height: 784px;
 .nav{
     display: flex;
     justify-content: space-between;
+    color: var(--background-color);
 }
 
 .first-button{
@@ -79,8 +81,8 @@ height: 784px;
     width: 218px;
 height: 52px;
 border-radius: 100px;
-border: 2px solid #7837F3;
-background: #7837F3;
+border: 2px solid var(--button-color);
+background: var(--button-color);
 }
 
 .second-button{
@@ -204,13 +206,15 @@ padding-top: 48px;
 
 /*  */
 .one{
-text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 font-size: 38px;
 line-height: 24px;
 width: 74px;
 height: 74px;
 border-radius: 100px;
-background: #B99FEA;
+background: var(--link-color);
 }
 /*  */
 
@@ -256,6 +260,7 @@ padding-top: 49px;
 .third-item{
     display: flex;
     flex-direction: row-reverse;
+    padding-bottom: 81px;
 }
 
 .third-advantages{
@@ -285,18 +290,18 @@ padding-top: 36px;
 font-size: 15px;
 line-height: 22.08px;
 width: 485px;
-margin-bottom: 197px;
 padding-top: 49px;
-}
-
-.third-img{
-    width: 518px;
-height: 500px;
 }
 
 .first-review::before{
     background-image: url(./img/review.png);
 }
+
+.first-review{
+padding-left: 107px;
+}
+
+/* REVIEW */
 
 .first-review .text{
     width: 489px;
@@ -324,4 +329,59 @@ line-height: 24px;
 text-align: center;
 font-size: 23px;
 line-height: 32px;
+padding-bottom: 68px;
+}
+
+.img-rewiev{
+    padding-left: 135px;
+}
+
+/* Questions */
+
+.questions{
+    background-color: var(--main-text-color);
+    padding-bottom: 153px;
+    padding-top: 118px;
+}
+
+.questions-title{
+    color: var(--background-color);
+font-size: 36px;
+line-height: 45.632px;
+font-weight: 400;
+letter-spacing: 1px;
+padding-left: 64px;
+margin-bottom: 45px;
+}
+
+.questions .list{
+    display: block;
+    padding-left: 64px;
+    color: var(--link-color);
+}
+
+.questions .item{
+    margin-bottom: 52px;
+}
+
+/* Missions */
+
+.missions{
+    background-image: url(./img/bg.jpg);
+    height: 600px;
+}
+
+.missions .text{
+    color: var(--background-color);
+    padding-top: 139px;
+    margin-bottom: 19px;
+font-size: 15px;
+line-height: 16px;
+}
+
+.missions .main-title{
+    width: 580px;
+    color: var(--background-color);
+font-size: 48px;
+line-height: 54px;
 }
