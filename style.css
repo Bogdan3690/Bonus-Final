@@ -7,6 +7,8 @@
     --third-text-color: #B99FEA;
     --fourt-text-color: #C3BAB1;
     --link-color: #B99FEA;
+    --second-link-color: #EBA789;
+    --third-link-color: #96DBC6;
 }
 
 html{
@@ -29,14 +31,16 @@ ul,a{
     text-decoration: none;
 }
 
+header a{
+    color: var(--secondary-text-color);
+}
+
 body{
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-
-
 
 header.header{
     background-image: url(./img/bg2.jpg);
@@ -51,7 +55,7 @@ height: 784px;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    outline: solid 3px red;
+    /* outline: solid 3px red; */
 }
 
 .list, .auth-list{
@@ -134,6 +138,16 @@ line-height: 60.48px;
     padding-right: 64px;
 }
 
+.hero-list .item{
+    color: var(--main-text-color);
+    border-bottom: solid 2px var(--main-text-color);
+    padding-bottom: 8px;
+}
+
+.hero-list .item::after{
+    background-image: url(./img/arow.png);
+}
+
 .hero-sec{
     display: flex;
 }
@@ -204,7 +218,6 @@ width: 494px;
 padding-top: 48px;
 }
 
-/*  */
 .one{
     display: flex;
     justify-content: center;
@@ -216,7 +229,6 @@ height: 74px;
 border-radius: 100px;
 background: var(--link-color);
 }
-/*  */
 
 /* SECOND LIST */
 
@@ -255,6 +267,18 @@ width: 495px;
 padding-top: 49px;
 }
 
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-size: 38px;
+line-height: 24px;
+width: 74px;
+height: 74px;
+border-radius: 100px;
+background: var(--second-link-color);
+}
+
 /* THIRD LIST */
 
 .third-item{
@@ -291,6 +315,18 @@ font-size: 15px;
 line-height: 22.08px;
 width: 485px;
 padding-top: 49px;
+}
+
+.tree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 38px;
+line-height: 24px;
+width: 74px;
+height: 74px;
+border-radius: 100px;
+background: var(--third-link-color);
 }
 
 .first-review::before{
@@ -334,6 +370,7 @@ padding-bottom: 68px;
 
 .img-rewiev{
     padding-left: 135px;
+    background-color: #101010;
 }
 
 /* Questions */
@@ -342,6 +379,12 @@ padding-bottom: 68px;
     background-color: var(--main-text-color);
     padding-bottom: 153px;
     padding-top: 118px;
+}
+
+
+.questions::after{
+    background-image: url(./img/frame.png);
+    background-repeat: no-repeat;
 }
 
 .questions-title{
@@ -360,28 +403,40 @@ margin-bottom: 45px;
     color: var(--link-color);
 }
 
-.questions .item{
+.questions .what{
     margin-bottom: 52px;
+}
+
+.questions .list a{
+    color: var(--third-text-color)
 }
 
 /* Missions */
 
-.missions{
+.mission{
     background-image: url(./img/bg.jpg);
     height: 600px;
 }
 
-.missions .text{
-    color: var(--background-color);
+.mission .text{
+    color: var(--fourt-text-color);
     padding-top: 139px;
     margin-bottom: 19px;
 font-size: 15px;
 line-height: 16px;
 }
 
-.missions .main-title{
+.mission .main-title{
     width: 580px;
     color: var(--background-color);
 font-size: 48px;
 line-height: 54px;
+}
+
+.mission .under-text{
+    color: var(--secondary-text-color);
+font-size: 12px;
+letter-spacing: 2px;
+border-bottom: solid 2px var(--secondary-text-color);
+padding-bottom: 8px;
 }
