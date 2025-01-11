@@ -9,6 +9,7 @@
     --link-color: #B99FEA;
     --second-link-color: #EBA789;
     --third-link-color: #96DBC6;
+    --footer-border-color: #E4D8CC29;
 }
 
 html{
@@ -50,7 +51,7 @@ height: 784px;
 }
 
 .container{
-    width: 1130px;
+    width: 1280px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -331,14 +332,27 @@ background: var(--third-link-color);
 }
 
 .first-review::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 62px;
+    padding-top: 116px;
+    margin-left: 209px;
+    margin-bottom: 48px;
     background-image: url(./img/review.png);
+    background-repeat: no-repeat;
 }
 
 .first-review{
-padding-left: 107px;
+    padding-left: 107px;
+    padding-right: 45px;
 }
 
 /* REVIEW */
+
+.reviews .list{
+    display: flex;
+}
 
 .first-review .text{
     width: 489px;
@@ -361,6 +375,22 @@ line-height: 24px;
     margin-bottom: 112px;
 }
 
+.second-review{
+    padding-left: 85px;
+}
+
+.second-review:before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 62px;
+    padding-top: 116px;
+    margin-left: 169px;
+    margin-bottom: 48px;
+    background-image: url(./img/review2.png);
+    background-repeat: no-repeat;
+}
+
 .second-review .text{
     width: 409px;
 text-align: center;
@@ -371,6 +401,7 @@ padding-bottom: 68px;
 
 .img-rewiev{
     padding-left: 135px;
+    background-color: #101010;
 }
 
 /* Questions */
@@ -457,7 +488,7 @@ padding-bottom: 8px;
 }
 
 .first-half{
-    padding-right: 42px;
+    margin-right: 42px;
 }
 
 .footer{
@@ -466,7 +497,7 @@ padding-bottom: 8px;
 }
 
 .footer .main-text{
-    padding-bottom: 28px;
+    margin-bottom: 28px;
 font-size: 23px;
 line-height: 24px;
 }
@@ -485,12 +516,12 @@ line-height: 16px;
 }
 
 .footer .list{
-    padding-right: 75px;
+    margin-right: 75px;
 }
 
 .footer .item{
     color: var(--secondary-text-color);
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 font-size: 16px;
 line-height: 0.16px;
 }
@@ -504,11 +535,14 @@ line-height: 0.16px;
     margin-right: 48px;
 }
 
-.footer img{
-    margin-top: 165px;
+footer{
+    color: var(--background-color);
 }
-.footer-img{
+
+footer .footer-img{
     margin-right: 298px;
+    margin-top: 29px;
+    border-top: var(--footer-border-color);
 }
 
 .footer button{
@@ -541,4 +575,23 @@ background: var(--main-text-color);
     width: 60px;
     height: 55px;
     background-image: url(./img/smile.png);
+    margin-left: 230px;
+    margin-top: 180px;
+}
+
+.smartest-way{
+    text-align: end;
+}
+
+footer .under-text{
+    text-align: end;
+}
+
+.social-footer{
+    display: flex;
+    margin-top: 160px;
+}
+
+.social{
+    display: flex;
 }
