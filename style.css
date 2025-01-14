@@ -149,7 +149,8 @@ line-height: 60.48px;
 
 .hero-list .item::after{
     content: "";
-    display: block;
+    display: inline-block;
+    margin-left: 10px;
     width: 15px;
     height: 15px;
     background-image: url(./img/arow.png);
@@ -157,10 +158,7 @@ line-height: 60.48px;
 
 .hero-sec{
     display: flex;
-}
-
-.info{
-    padding-right: 106px;
+    justify-content: space-between;
 }
 
 .hero-img{
@@ -169,12 +167,12 @@ height: 283px;
 }
 
 .hero{
-    padding-top: 76px;
-    padding-bottom: 75px;
+    margin-top: 76px;
+    margin-bottom: 75px;
 }
 
 .hero-list{
-    padding-top: 124px;
+    margin-top: 124px;
 }
 
 .hero-title{
@@ -186,8 +184,8 @@ font-weight: 400;
 .hero-text{
     width: 452px;
 font-size: 16px;
-padding-top: 15px;
-padding-bottom: 75px;
+margin-top: 15px;
+margin-bottom: 75px;
 }
 
 /* FIRST LIST */
@@ -198,14 +196,13 @@ padding-bottom: 75px;
 }
 
 .first-advantages{
-    padding-left: 116px;
+    margin-left: 116px;
 }
 
 .first-advantages .top-text{
     color: var(--main-text-color);
 font-size: 19px;
 line-height: 36px;
-width: 225px;
 }
 
 .first-advantages .title{
@@ -213,8 +210,8 @@ font-size: 35px;
 font-weight: 400;
 line-height: 45.632px;
 letter-spacing: 1px;
-padding-top: 36px;
-padding-bottom: 11px;
+margin-top: 36px;
+margin-bottom: 11px;
 width: 459px;
 }
 
@@ -222,13 +219,15 @@ width: 459px;
     color: var(--main-text-color);
 line-height: 22.08px;
 width: 494px;
-padding-top: 48px;
+margin-top: 48px;
 }
 
-.one{
-    display: flex;
+.top-text.one::before{
+    content: "1";
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-right: 12px;
 font-size: 38px;
 line-height: 24px;
 width: 74px;
@@ -241,19 +240,18 @@ background: var(--link-color);
 
 .second-item{
     display: flex;
-    padding-bottom: 183px;
-    padding-top: 203px;
+    margin-bottom: 183px;
+    margin-top: 203px;
 }
 
 .second-advantages{
-    padding-right: 139px;
+    margin-right: 139px;
 }
 
 .second-advantages .top-text{
     color: var(--main-text-color);
 font-size: 19px;
 line-height: 36px;
-width: 260px;
 }
 
 .second-advantages .title{
@@ -263,21 +261,23 @@ font-weight: 400;
 line-height: 45.632px;
 letter-spacing: 1px;
 width: 490px;
-padding-bottom: 9px;
-padding-top: 36px;
+margin-bottom: 9px;
+margin-top: 36px;
 }
 
 .second-advantages .text{
     color: var(--main-text-color);
 line-height: 22.08px;
 width: 495px;
-padding-top: 49px;
+margin-top: 49px;
 }
 
-.two{
-    display: flex;
+.top-text.two::before{
+    content: "2";
+    display: inline-flex;
     align-items: center;
     justify-content: center;
+    margin-right: 12px;
 font-size: 38px;
 line-height: 24px;
 width: 74px;
@@ -291,18 +291,16 @@ background: var(--second-link-color);
 .third-item{
     display: flex;
     flex-direction: row-reverse;
-    padding-bottom: 81px;
 }
 
 .third-advantages{
-    padding-left: 116px;
+    margin-left: 116px;
 }
 
 .third-advantages .top-text{
     color: var(--main-text-color);
     font-size: 19px;
     line-height: 36px;
-    width: 220px;
 }
 
 .third-advantages .title{
@@ -321,13 +319,15 @@ padding-top: 36px;
 font-size: 15px;
 line-height: 22.08px;
 width: 485px;
-padding-top: 49px;
+margin-top: 49px;
 }
 
-.tree{
-    display: flex;
+.top-text.tree::before{
+    content: "3";
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    margin-right: 12px;
 font-size: 38px;
 line-height: 24px;
 width: 74px;
@@ -341,8 +341,8 @@ background: var(--third-link-color);
     display: block;
     width: 72px;
     height: 62px;
-    padding-top: 116px;
-    margin-left: 209px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 48px;
     background-image: url(./img/review.png);
     background-repeat: no-repeat;
@@ -354,6 +354,11 @@ background: var(--third-link-color);
 }
 
 /* REVIEW */
+
+.reviews{
+    padding-top: 116px;
+    padding-bottom: 112px;
+}
 
 .reviews .list{
     display: flex;
@@ -377,7 +382,6 @@ line-height: 24px;
     display: flex;
     gap: 29px;
     margin-top: 61px;
-    margin-bottom: 112px;
 }
 
 .second-review{
@@ -389,8 +393,8 @@ line-height: 24px;
     display: block;
     width: 72px;
     height: 62px;
-    padding-top: 116px;
-    margin-left: 169px;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 48px;
     background-image: url(./img/review2.png);
     background-repeat: no-repeat;
