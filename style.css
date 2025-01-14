@@ -89,6 +89,7 @@ height: 52px;
 border-radius: 100px;
 border: 2px solid var(--button-color);
 background: var(--button-color);
+margin-right: 16px;
 }
 
 .second-button{
@@ -136,8 +137,8 @@ line-height: 60.48px;
 }
 
 .hero-list{
-    padding-left: 64px;
-    padding-right: 64px;
+    margin-left: 64px;
+    margin-right: 64px;
 }
 
 .hero-list .item{
@@ -147,6 +148,10 @@ line-height: 60.48px;
 }
 
 .hero-list .item::after{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
     background-image: url(./img/arow.png);
 }
 
