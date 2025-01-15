@@ -386,6 +386,7 @@ line-height: 24px;
 
 .second-review{
     padding-left: 85px;
+    padding-right: 147px;
 }
 
 .second-review:before{
@@ -410,15 +411,15 @@ padding-bottom: 68px;
 
 .img-rewiev{
     padding-left: 135px;
-    background-color: #101010;
+    background-color: var(--main-text-color);
 }
 
 /* Questions */
 
 .questions{
     background-color: var(--main-text-color);
-    padding-bottom: 153px;
-    padding-top: 118px;
+    margin-bottom: 153px;
+    margin-top: 118px;
 }
 
 .questions .container{
@@ -441,13 +442,13 @@ font-size: 36px;
 line-height: 45.632px;
 font-weight: 400;
 letter-spacing: 1px;
-padding-left: 64px;
+margin-left: 64px;
 margin-bottom: 45px;
 }
 
 .questions .list{
     display: block;
-    padding-left: 64px;
+    margin-left: 64px;
     color: var(--link-color);
 }
 
@@ -549,9 +550,7 @@ footer{
 }
 
 footer .footer-img{
-    margin-right: 298px;
-    margin-top: 29px;
-    border-top: var(--footer-border-color);
+
 }
 
 .footer button{
@@ -586,6 +585,7 @@ background: var(--main-text-color);
     background-image: url(./img/smile.png);
     margin-left: 230px;
     margin-top: 180px;
+    justify-content: space-between;
 }
 
 .smartest-way{
@@ -599,8 +599,10 @@ footer .under-text{
 .social-footer{
     display: flex;
     margin-top: 160px;
+    justify-content: space-between;
 }
 
 .social{
     display: flex;
+    gap: 298px;
 }
