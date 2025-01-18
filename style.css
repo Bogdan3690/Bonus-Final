@@ -154,6 +154,7 @@ line-height: 60.48px;
     width: 15px;
     height: 15px;
     background-image: url(./img/arow.png);
+    background-repeat: no-repeat;
 }
 
 .hero-sec{
