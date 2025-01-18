@@ -310,8 +310,8 @@ font-weight: 400;
 line-height: 45.632px;
 letter-spacing: 1px;
 width: 491px;
-padding-bottom: 9px;
-padding-top: 36px;
+margin-bottom: 9px;
+margin-top: 36px;
 }
 
 .third-advantages .text{
@@ -349,8 +349,8 @@ background: var(--third-link-color);
 }
 
 .first-review{
-    padding-left: 107px;
-    padding-right: 45px;
+    margin-left: 107px;
+    margin-right: 45px;
 }
 
 /* REVIEW */
@@ -385,8 +385,8 @@ line-height: 24px;
 }
 
 .second-review{
-    padding-left: 85px;
-    padding-right: 147px;
+    margin-left: 85px;
+    margin-right: 147px;
 }
 
 .second-review:before{
@@ -410,7 +410,7 @@ padding-bottom: 68px;
 }
 
 .img-rewiev{
-    padding-left: 135px;
+    margin-left: 135px;
     background-color: var(--main-text-color);
 }
 
