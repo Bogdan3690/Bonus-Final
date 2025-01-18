@@ -65,13 +65,16 @@ header .list, .auth-list{
 }
 
 .header .list{
+    align-items: center;
     margin-left: 134px;
-    margin-top: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .auth-list{
-    margin-right: 22px;
-    margin-top: 23px;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nav{
