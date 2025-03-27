@@ -1,0 +1,35 @@
+%list{
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header .list{
+    margin-left: 134px;
+    @extend %list
+}
+
+.auth-list{
+    @extend %list;
+}
+
+header .list, .auth-list{
+    display: flex;
+    gap: 30px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header.header{
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+height: 784px;
+}
+
+header a{
+    color: var(--secondary-text-color);
+}
