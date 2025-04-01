@@ -1,0 +1,14 @@
+.first-button{
+    width: 218px;
+border: 2px solid var(--button-color);
+background: var(--button-color);
+margin-right: 16px;
+@extend %buttons;
+}
+
+.second-button{
+    width: 170px;
+border: transparent;
+background: rgba(228, 216, 204, 0.50);
+@extend %buttons;
+}

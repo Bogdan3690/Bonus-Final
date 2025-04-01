@@ -1,0 +1,39 @@
+.second-item{
+    display: flex;
+    margin-bottom: 183px;
+    margin-top: 203px;
+}
+
+.second-advantages{
+    margin-right: 139px;
+}
+
+.second-advantages .top-text{
+    color: var(--main-text-color);
+font-size: 19px;
+line-height: 36px;
+}
+
+.second-advantages .title{
+    color: var(--main-text-color);
+font-size: 35px;
+font-weight: 400;
+line-height: 45.632px;
+letter-spacing: 1px;
+width: 490px;
+margin-bottom: 9px;
+margin-top: 36px;
+}
+
+.second-advantages .text{
+    color: var(--main-text-color);
+line-height: 22.08px;
+width: 495px;
+margin-top: 49px;
+}
+
+.top-text.two::before{
+    content: "2";
+    @extend %pseudoelements;
+background: var(--second-link-color);
+}

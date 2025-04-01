@@ -1,0 +1,52 @@
+.hero-list{
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.hero-list .item{
+    color: var(--main-text-color);
+    border-bottom: solid 2px var(--main-text-color);
+    padding-bottom: 8px;
+}
+
+.hero-list .item::after{
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    background-image: url(./img/arow.png);
+    background-repeat: no-repeat;
+}
+
+.hero-sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-img{
+    width: 539px;
+height: 283px;
+}
+
+.hero{
+    margin-top: 76px;
+    margin-bottom: 75px;
+}
+
+.hero-list{
+    margin-top: 124px;
+}
+
+.hero-title{
+    width: 507px;
+font-size: 54px;
+font-weight: 400;
+}
+
+.hero-text{
+    width: 452px;
+font-size: 16px;
+margin-top: 15px;
+margin-bottom: 75px;
+}

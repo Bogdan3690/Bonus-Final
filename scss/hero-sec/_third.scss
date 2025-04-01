@@ -1,0 +1,39 @@
+.third-item{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.third-advantages{
+    margin-left: 116px;
+}
+
+.third-advantages .top-text{
+    color: var(--main-text-color);
+    font-size: 19px;
+    line-height: 36px;
+}
+
+.third-advantages .title{
+    color: var(--main-text-color);
+font-size: 35px;
+font-weight: 400;
+line-height: 45.632px;
+letter-spacing: 1px;
+width: 491px;
+margin-bottom: 9px;
+margin-top: 36px;
+}
+
+.third-advantages .text{
+    color: var(--main-text-color);
+font-size: 15px;
+line-height: 22.08px;
+width: 485px;
+margin-top: 49px;
+}
+
+.top-text.tree::before{
+    content: "3";
+    @extend %pseudoelements;
+background: var(--third-link-color);
+}

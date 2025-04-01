@@ -1,0 +1,33 @@
+.first-review::before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 62px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    background-image: url(./img/review.png);
+    background-repeat: no-repeat;
+}
+
+.first-review{
+    margin-left: 107px;
+    margin-right: 45px;
+}
+
+/* REVIEW */
+
+
+.first-review .text{
+    width: 489px;
+text-align: center;
+font-size: 24px;
+line-height: 32px;
+}
+
+.first-review .text:nth-last-child(1){
+    width: 198px;
+text-align: start;
+font-size: 14px;
+line-height: 24px;
+}

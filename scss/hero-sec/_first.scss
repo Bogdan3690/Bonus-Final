@@ -1,0 +1,37 @@
+.first-item{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.first-advantages{
+    margin-left: 116px;
+}
+
+.first-advantages .top-text{
+    color: var(--main-text-color);
+font-size: 19px;
+line-height: 36px;
+}
+
+.first-advantages .title{
+font-size: 35px;
+font-weight: 400;
+line-height: 45.632px;
+letter-spacing: 1px;
+margin-top: 36px;
+margin-bottom: 11px;
+width: 459px;
+}
+
+.first-advantages .text{
+    color: var(--main-text-color);
+line-height: 22.08px;
+width: 494px;
+margin-top: 48px;
+}
+
+.top-text.one::before{
+    content: "1";
+    @extend %pseudoelements;
+background: var(--link-color);
+}

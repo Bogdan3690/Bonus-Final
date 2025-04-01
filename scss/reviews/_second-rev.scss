@@ -1,0 +1,24 @@
+.second-review{
+    margin-left: 85px;
+    margin-right: 147px;
+}
+
+.second-review:before{
+    content: "";
+    display: block;
+    width: 72px;
+    height: 62px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    background-image: url(./img/review2.png);
+    background-repeat: no-repeat;
+}
+
+.second-review .text{
+    width: 409px;
+text-align: center;
+font-size: 23px;
+line-height: 32px;
+padding-bottom: 68px;
+}

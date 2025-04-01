@@ -1,0 +1,110 @@
+.main-footer{
+    display: flex;
+    padding-top: 78px;
+}
+
+.first-half{
+    margin-right: 42px;
+}
+
+.footer{
+    background-color: var(--main-text-color);
+    padding-left: 67px;
+}
+
+.footer .main-text{
+    margin-bottom: 28px;
+font-size: 23px;
+line-height: 24px;
+}
+
+.footer .text{
+    display: flex;
+    color: var(--secondary-text-color);
+    margin-bottom: 48px;
+    margin-top: 86px;
+    color: #E4D8CC;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+}
+
+.footer .list{
+    margin-right: 75px;
+}
+
+.footer .item{
+    color: var(--secondary-text-color);
+    margin-bottom: 48px;
+font-size: 16px;
+line-height: 0.16px;
+}
+
+.users-servises{
+    display: flex;
+}
+
+.users-servises a{
+    color: var(--secondary-text-color);
+    margin-right: 48px;
+}
+
+footer{
+    color: var(--background-color);
+}
+
+.footer button{
+border-radius: 100px;
+height: 42px;
+font-family: Inter;
+}
+
+.footer .first-half button{
+    width: 215px;
+color: var(--text-color);
+border: 1px solid var(--button-color);
+background: var(--button-color);
+font-size: 16px;
+line-height: 24px;
+}
+
+.footer .second-half button{
+    width: 251px;
+color: var(--secondary-text-color);
+font-size: 15px;
+line-height: 24px;
+border: 1px solid var(--secondary-text-color);
+background: var(--main-text-color);
+}
+
+.users-servises::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 55px;
+    background-image: url(./img/smile.png);
+    margin-left: 230px;
+    margin-top: 180px;
+    justify-content: space-between;
+}
+
+.smartest-way{
+    text-align: end;
+}
+
+footer .under-text{
+    text-align: end;
+}
+
+.social-footer{
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    gap: 298px;
+}

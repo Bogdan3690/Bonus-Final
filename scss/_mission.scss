@@ -1,0 +1,27 @@
+.mission{
+    background-image: url(./img/bg.jpg);
+    height: 600px;
+}
+
+.mission .text{
+    color: var(--fourt-text-color);
+    padding-top: 139px;
+    margin-bottom: 19px;
+font-size: 15px;
+line-height: 16px;
+}
+
+.mission .main-title{
+    width: 580px;
+    color: var(--background-color);
+font-size: 48px;
+line-height: 54px;
+}
+
+.mission .under-text{
+    color: var(--secondary-text-color);
+font-size: 12px;
+letter-spacing: 2px;
+border-bottom: solid 2px var(--secondary-text-color);
+padding-bottom: 8px;
+}

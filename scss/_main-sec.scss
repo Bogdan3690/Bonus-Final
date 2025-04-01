@@ -1,0 +1,26 @@
+.main .text{
+    color: var(--fourt-text-color);
+font-size: 18px;
+line-height: 28px;
+}
+
+.main-title + .text{
+    margin-bottom: 42px;
+}
+
+.main{
+    margin-top: 364px;
+}
+
+.main-title{
+    color: var(--background-color);
+    margin-bottom: 14px;
+    width: 838px;
+font-size: 57px;
+font-weight: 400;
+line-height: 60.48px;
+}
+
+.main-text{
+    color: var(--secondary-text-color);
+}
